@@ -29,10 +29,10 @@ def setUI(self):
     # Создание остальных кнопок повторяет ту же логику, что и создание
     # кнопки установки красного цвета, отличаются лишь аргументы.
 
-    green_btn = Button(self, text="Зеленый", width=10, command=lambda: self.set_color("green"))
+    green_btn = Button(self, text="Зеле123ный", width=10, command=lambda: self.set_color("green"))
     green_btn.grid(row=0, column=2)
 
-    blue_btn = Button(self, text="Синий", width=10, command=lambda: self.set_color("blue"))
+    blue_btn = Button(self, text="Сини33й", width=10, command=lambda: self.set_color("blue"))
     blue_btn.grid(row=0, column=3)
 
     black_btn = Button(self, text="Черный", width=10, command=lambda: self.set_color("black"))

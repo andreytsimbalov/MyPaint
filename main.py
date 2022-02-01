@@ -33,6 +33,7 @@ def main():
     root = Tk()
     root.geometry("640x480+100+100")
     app = Paint(root)
+    print(2+2)
     app.mainloop()
 
 

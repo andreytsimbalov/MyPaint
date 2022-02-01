@@ -30,6 +30,7 @@ class Paint(Frame):
 
 
 def main():
+    print('start proj')
     root = Tk()
     root.geometry("640x480+100+100")
     app = Paint(root)
